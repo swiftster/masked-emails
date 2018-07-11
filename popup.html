@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .textInput {
+            width: 175px;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+    <label for="emailList">Masked Email:</label><br/>
+    <select id="emailList">
+        <option>Select Email Address to Mask</option>
+    </select>
+</p>
+<p>
+    <label for="alias">Alias Email:</label>
+    <input type="text" name="alias" id="alias" value="" class="textInput">
+</p>
+<p>
+    <button id="create">Create</button>
+</p>
+
+<p id="notification"></p>
+
+<script src="popup.js"></script>
+</body>
+</html>
